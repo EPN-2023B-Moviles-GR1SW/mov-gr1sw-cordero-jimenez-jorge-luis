@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="saludo">Bienvenido a aplicaciones moviles</string>
+    <color name="texto_color">#020201</color>
+    <color name="fondo">#BDC8C8</color>
+</resources>

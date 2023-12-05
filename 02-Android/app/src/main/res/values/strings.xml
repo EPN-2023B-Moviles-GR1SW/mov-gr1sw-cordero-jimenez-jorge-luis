@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">B2023-gr1sw-jlcj</string>
     <string name="saludo">Buenos Dias</string>
+    <color name="texto_color">#FFB30071</color>
+    <string name="texto">Buenos Dias</string>
+    <color name="fondo">#FF1FE1DF</color>
 </resources>

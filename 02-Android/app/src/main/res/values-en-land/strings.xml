@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="saludo">Welcome Mobile Applications Course</string>
+    <color name="texto_color">#B6B2B4</color>
+    <color name="fondo">#152478</color>
+</resources>
