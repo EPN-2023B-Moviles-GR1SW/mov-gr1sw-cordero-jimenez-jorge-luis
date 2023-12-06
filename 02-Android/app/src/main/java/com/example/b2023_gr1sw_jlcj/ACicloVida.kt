@@ -10,7 +10,7 @@ class ACicloVida : AppCompatActivity() {
 
     fun mostrarSnackbar(texto:String){
         textoGlobal = textoGlobal + " "+ texto
-        Snackbar.make(findViewById(R.id.btn_ciclo_vida),
+        Snackbar.make(findViewById(R.id.cl_ciclo_vida),
             textoGlobal,
             Snackbar.LENGTH_INDEFINITE)
             .show()
