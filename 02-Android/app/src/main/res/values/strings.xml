@@ -4,4 +4,9 @@
     <color name="texto_color">#FFB30071</color>
     <string name="texto">Buenos Dias</string>
     <color name="fondo">#FF1FE1DF</color>
+    <string-array name="string_array_opciones_dialogo">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+    </string-array>
 </resources>
