@@ -47,7 +47,6 @@ class ESqliteHelperEntrenador(
 
         return if(resultadoGuardar.toInt()== -1) false else true
 
-
     }
 
     fun eliminarEntrenadorFormulario(id: Int): Boolean{
@@ -104,7 +103,7 @@ class ESqliteHelperEntrenador(
         val arreglo = arrayListOf<BEntrenador>()
         if(existeUsuario){
             do{
-                val id = resultadoConsultaLectura.getInt(0) //indice
+                val id = resultadoConsultaLectura.getInt(0) //indice 0
                 val nombre = resultadoConsultaLectura.getString(1)
                 val descripcion = resultadoConsultaLectura.getString(2)
                 if(id != null){
@@ -113,7 +112,7 @@ class ESqliteHelperEntrenador(
                     usuarioEncontrado.nombre = nombre
                     usuarioEncontrado.descripcion = descripcion
                 }
-            } while (resultadoConsultaLectura.moveToFirst())
+            } while (resultadoConsultaLectura.moveToNext())
         }
         resultadoConsultaLectura.close()
         baseDatosLectura.close()
