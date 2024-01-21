@@ -100,6 +100,20 @@ class MainActivity : AppCompatActivity() {
                 irActividad(ECrudEntrenador::class.java)
             }
 
+        val botonRView = findViewById<Button>(R.id.btn_recycler_view)
+        botonRView
+            .setOnClickListener {
+                irActividad(FRecyclerView::class.java)
+            }
+
+        val botonGoogleMaps  = findViewById<Button>(R.id.btn_google_maps)
+        botonRView
+            .setOnClickListener {
+                irActividad(GGoogleMapsActivity::class.java)
+            }
+
+
+
     }
 
     fun abrirActividadConParametros(
