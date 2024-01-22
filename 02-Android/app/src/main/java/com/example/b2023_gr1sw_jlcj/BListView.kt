@@ -25,7 +25,7 @@ class BListView : AppCompatActivity() {
     ) {
         super.onCreateContextMenu(menu, v, menuInfo)
         val inflater = menuInflater
-        inflater.inflate(R.menu.menu, menu)
+        inflater.inflate(R.menu.menu_productora, menu)
 
         val info = menuInfo as AdapterView.AdapterContextMenuInfo
         val posicion = info.position
