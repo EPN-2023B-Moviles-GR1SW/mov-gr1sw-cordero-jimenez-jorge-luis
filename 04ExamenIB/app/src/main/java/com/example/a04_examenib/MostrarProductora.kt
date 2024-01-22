@@ -101,20 +101,12 @@ class MostrarProductora : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun mostrarSnackbar(texto: String) {
-        val snack = Snackbar.make(
-            findViewById(R.id.),
-            texto, Snackbar.LENGTH_LONG
-        )
-        snack.show()
-    }
 
     fun abrirDialogo() {
         val builder = AlertDialog.Builder(this)
         builder.setTitle("¿Desea eliminar?")
         builder.setPositiveButton("Aceptar") { _, _ ->
-            CineDAO().deleteById(idCineSeleccionado)
-            mostrarSnackbar("Elemento id:$idCineSeleccionado eliminado")
+            ProductoraBD().deleteById(idProductoraSeleccionada)
             adaptador.notifyDataSetChanged()
         }
         builder.setNegativeButton("Cancelar", null)
