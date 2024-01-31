@@ -31,7 +31,7 @@ class MostrarComics : AppCompatActivity() {
         // Recupera el ID
         val intent = intent
         val id = intent.getIntExtra("id", 1)
-        // Buscar Películas
+        // Buscar Comics
         productora = ProductoraBD().getById(id)!!
         arregloComics = productora.listaComics
 
@@ -84,9 +84,9 @@ class MostrarComics : AppCompatActivity() {
         val info = menuInfo as AdapterView.AdapterContextMenuInfo
         val posicion = info.position
         posicionItemSeleccionado = posicion
-        // Acceder al objeto Película en la posición seleccionada
+        // Acceder al objeto Comic en la posición seleccionada
         val comicSeleccionado = arregloComics[posicion]
-        // Obtener el ID de la Película seleccionada
+        // Obtener el ID de la Comic seleccionada
         idComicSeleccionada = comicSeleccionado.id!!
     }
 

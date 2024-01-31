@@ -15,7 +15,7 @@ class EditarComic : AppCompatActivity() {
         // Recupera el ID
         val intent = intent
         val id = intent.getIntExtra("id", 1)
-        // Buscar Pelicula
+        // Buscar Comic
         val comic = ComicBD().getById(id)!!
 
         // Setear el texto en componentes visuales
