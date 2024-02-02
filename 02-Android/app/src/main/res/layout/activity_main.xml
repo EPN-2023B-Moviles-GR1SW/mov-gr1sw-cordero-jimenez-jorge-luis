@@ -27,10 +27,10 @@
         android:text="C. Vida"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toEndOf="@+id/btn_ir_list_view"
         app:layout_constraintTop_toBottomOf="@+id/btn_ir_intent_implicito"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.069" />
 
     <Button
         android:id="@+id/btn_ir_list_view"
@@ -39,10 +39,10 @@
         android:text="L. View"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintHorizontal_bias="0.226"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_ir_intent_explicito"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintVertical_bias="0.069" />
 
     <Button
         android:id="@+id/btn_ir_intent_explicito"
@@ -51,10 +51,10 @@
         android:text="I. Explicitpo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.306" />
+        app:layout_constraintVertical_bias="0.273" />
 
     <Button
         android:id="@+id/btn_ir_intent_implicito"
@@ -63,10 +63,10 @@
         android:text="I. IMPLICITO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toEndOf="@+id/btn_ir_intent_explicito"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31" />
+        app:layout_constraintVertical_bias="0.278" />
 
     <Button
         android:id="@+id/btn_sqlite"
@@ -75,10 +75,10 @@
         android:text="SQLITE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintHorizontal_bias="0.226"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.582" />
+        app:layout_constraintVertical_bias="0.42" />
 
     <Button
         android:id="@+id/btn_recycler_view"
@@ -97,9 +97,19 @@
         android:text="G. Maps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.226"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.752" />
+        app:layout_constraintVertical_bias="0.59" />
+
+    <Button
+        android:id="@+id/btn_intent_firebase_ui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F. Auth"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_google_maps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_google_maps"
+        app:layout_constraintTop_toTopOf="@+id/btn_google_maps" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
