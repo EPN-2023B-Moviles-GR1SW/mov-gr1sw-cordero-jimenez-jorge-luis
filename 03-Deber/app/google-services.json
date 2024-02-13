@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081575362819",
+    "project_id": "deber-03-e0952",
+    "storage_bucket": "deber-03-e0952.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081575362819:android:588b3fb848a0a6b7c6d936",
+        "android_client_info": {
+          "package_name": "com.example.deber_03"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk25RGIAd2TAo5_0y92IZ-23l4gHIIgPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
