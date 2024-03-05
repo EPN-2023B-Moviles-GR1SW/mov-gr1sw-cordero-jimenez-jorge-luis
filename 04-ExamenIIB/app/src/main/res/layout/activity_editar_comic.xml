@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editarComic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarComic">
+
+    <TextView
+        android:id="@+id/tv_recomendado_editar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Recomendado"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/rdg_recomendado_editar"
+        app:layout_constraintEnd_toEndOf="@+id/rdg_recomendado_editar"
+        app:layout_constraintStart_toStartOf="@+id/rdg_recomendado_editar" />
+
+    <RadioGroup
+        android:id="@+id/rdg_recomendado_editar"
+        android:layout_width="222dp"
+        android:layout_height="111dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606">
+
+        <RadioButton
+            android:id="@+id/rdb_recom_true_editar"
+            android:layout_width="72dp"
+            android:layout_height="59dp"
+            android:text="True" />
+
+        <RadioButton
+            android:id="@+id/rdb_recom_false_editar"
+            android:layout_width="77dp"
+            android:layout_height="53dp"
+            android:text="False" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_editarResenia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Comic"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <EditText
+        android:id="@+id/inp_idEditarComic"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="Ingresa el ID"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/inp_editarTitulo"
+        app:layout_constraintEnd_toEndOf="@+id/inp_editarTitulo"
+        app:layout_constraintStart_toStartOf="@+id/inp_editarTitulo" />
+
+    <EditText
+        android:id="@+id/inp_editarPrecio"
+        android:layout_width="224dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Ingresa la Calificacion"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/tv_recomendado_editar"
+        app:layout_constraintEnd_toEndOf="@+id/tv_recomendado_editar"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="@+id/tv_recomendado_editar" />
+
+    <EditText
+        android:id="@+id/inp_editarTitulo"
+        android:layout_width="234dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="Ingresa el titulo del Comic"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/inp_editarPrecio"
+        app:layout_constraintEnd_toEndOf="@+id/inp_editarPrecio"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/inp_editarPrecio" />
+
+    <Button
+        android:id="@+id/btn_editarComic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Editar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdg_recomendado_editar" />
+
+    <Button
+        android:id="@+id/btn_cancelar_editarComic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

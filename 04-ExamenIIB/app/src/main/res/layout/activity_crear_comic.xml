@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/crearComic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearComic">
+
+    <RadioGroup
+        android:id="@+id/rdg_recomendado_editar"
+        android:layout_width="209dp"
+        android:layout_height="121dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705">
+
+        <RadioButton
+            android:id="@+id/rdb_recom_true_editar"
+            android:layout_width="78dp"
+            android:layout_height="49dp"
+            android:text="True" />
+
+        <RadioButton
+            android:id="@+id/rdb_recom_false_editar"
+            android:layout_width="79dp"
+            android:layout_height="66dp"
+            android:text="False" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/inp_titulo"
+        android:layout_width="258dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="Ingresa del titulo del comic"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/inp_precio"
+        app:layout_constraintEnd_toEndOf="@+id/inp_precio"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="@+id/inp_precio" />
+
+    <EditText
+        android:id="@+id/inp_precio"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="52dp"
+        android:ems="10"
+        android:hint="Ingresa el precio"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/tv_recomendado"
+        app:layout_constraintEnd_toEndOf="@+id/tv_recomendado"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/tv_recomendado" />
+
+    <Button
+        android:id="@+id/btn_cancelar_comics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <Button
+        android:id="@+id/btn_crear_comics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cancelar_comics"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <EditText
+        android:id="@+id/inp_idComic"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="48dp"
+        android:ems="10"
+        android:hint="Ingrese el ID "
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/inp_titulo"
+        app:layout_constraintEnd_toEndOf="@+id/inp_titulo"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/inp_titulo" />
+
+    <TextView
+        android:id="@+id/tv_recomendado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Recomendado"
+        app:layout_constraintBottom_toTopOf="@+id/rdg_recomendado_editar"
+        app:layout_constraintEnd_toEndOf="@+id/rdg_recomendado_editar"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/rdg_recomendado_editar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

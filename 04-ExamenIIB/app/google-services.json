@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690689880159",
+    "project_id": "movilesexamen-8b872",
+    "storage_bucket": "movilesexamen-8b872.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690689880159:android:baaa69f0d40b1a4a1b6bea",
+        "android_client_info": {
+          "package_name": "com.example.examenib"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpOdWQVEOMqli5RsyffcQW_agxbwjoUhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
