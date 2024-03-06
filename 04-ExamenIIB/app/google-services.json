@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "690689880159",
-    "project_id": "movilesexamen-8b872",
-    "storage_bucket": "movilesexamen-8b872.appspot.com"
+    "project_number": "1073744018795",
+    "project_id": "proyectoiib-b6504",
+    "storage_bucket": "proyectoiib-b6504.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:690689880159:android:baaa69f0d40b1a4a1b6bea",
+        "mobilesdk_app_id": "1:1073744018795:android:5ef8bcb267efe40b70602e",
         "android_client_info": {
-          "package_name": "com.example.examenib"
+          "package_name": "com.barryzea.nilopartner"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCpOdWQVEOMqli5RsyffcQW_agxbwjoUhM"
+          "current_key": "AIzaSyCGm7KcPO9AjUkxflwuEqzvnzgh8GboiCk"
         }
       ],
       "services": {
